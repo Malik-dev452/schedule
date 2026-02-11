@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Shriftik;
+    src: url(sf-synthonic-pop.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    width: 100ve;
+    text-align: center;
+    color: #f31919;
+    font-size: 3vw;
+}
+body{
+    background-color: rgb(8, 8, 50);
+    font-family: Shriftik, sans-serif;
+}
+.week{
+    color: #e9dede;
+    display: flex;
+    width: 99vw;
+    flex-direction: column;
+}
+.row{
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+
+}
+.day{
+    height: 170px;
+    border: 1px solid white;
+    width: 31vw ;
+    text-align: center;
+    padding: 20px;
+}
+.name{
+    font-size: 30px;
+}
+
+.obj{
+    padding: 5px;
+}
+
+.prog{
+    position: absolute;
+    left: 1px;
+    bottom: 50px;
+    height: 70px;
+}
+.ard{
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    height: 100px;
+}
+.gym{
+    position: absolute;
+    left: 40px;
+    bottom: 200px;
+    height: 200px;
+}
+.Chem{
+    position: absolute;
+    right: 50px;
+     bottom: 200px;
+     height: 100px;
+}
