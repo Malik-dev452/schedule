@@ -8,7 +8,7 @@
 }
 
 h3{
-    width: 100ve;
+    width: 100vw;
     text-align: center;
     color: #f31919;
     font-size: 3vw;
@@ -36,14 +36,15 @@ body{
     text-align: center;
     padding: 20px;
 }
-.name{
-    font-size: 30px;
-}
+
 
 .obj{
     padding: 5px;
+    font-size: 1.4vw;
 }
-
+.name{
+    font-size: 30px;
+}
 .prog{
     position: absolute;
     left: 1px;
@@ -67,4 +68,27 @@ body{
     right: 50px;
      bottom: 200px;
      height: 100px;
+}
+.showday{
+    display: none;
+}
+@media(max-width:500px){
+    h3{
+        font-size: 15vw;
+    }
+    .week{
+        display: none;
+    }
+    .showday{
+        display: block;
+        color: #fff;
+    }
+    .obj{
+        width:100vw;
+        text-align: center;
+        font-size: 12vw;
+    }
+    .prog, .ard, .Chem, .gym{
+        display: none;
+    }
 }
