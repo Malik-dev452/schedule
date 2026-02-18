@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My schedule</title>
     <link rel="stylesheet" href="style.css">
+
+   
 </head>
 <body>
     <img src="Programming.png" alt="" class="prog">
@@ -58,10 +60,21 @@
         </div>
     </div>
     <div class="showday"> 
-        <div class="obj name">Wednesday</div>
+        <div id="mobileday" class="obj name">Wednesday</div>
                 <div class="obj">School</div>
                 <div class="obj">Programming</div>
             
     </div>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js" ></script>
+        <script src="Functions.js" defer ></script>
+    <script>
+        const hammer=new Hammer(document.body);
+        hammer.on('swipeleft',()=>{
+            nextday();
+        });
+                hammer.on('swiperight',()=>{
+            nextday();
+        });
+    </script>
 </body>
 </html>
