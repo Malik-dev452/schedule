@@ -91,4 +91,7 @@ body{
     .prog, .ard, .Chem, .gym{
         display: none;
     }
+    #mobileday{
+        color: aquamarine;
+    }
 }
