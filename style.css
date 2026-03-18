@@ -16,6 +16,9 @@ h3{
 body{
     background-color: rgb(8, 8, 50);
     font-family: Shriftik, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    z-index: 50;
 }
 .week{
     color: #e9dede;
